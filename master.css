@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #DCE35B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.stopwatch {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.timeview {
+  width: 60%;
+  background-color: white;
+  height: 80px;
+  border: none;
+  border-radius: 3px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timeview > span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons > button {
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.buttons > button:hover {
+  opacity: 0.85;
+  background-color: gray;
+  color: white;
+}
